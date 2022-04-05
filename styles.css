@@ -1,0 +1,41 @@
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    justify-content: center;
+    position: relative;
+}
+h1{
+    font-size: 64px;
+}
+#logo{
+    width: 50px; height: 50px;
+    position: relative;
+    top: 40px;
+    transform: rotate(30deg)
+}
+.album{
+    position: relative; top: 200px;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+.first_row{
+    display: flex;
+    width: 1200px;
+    height: 300px;
+}
+.second_row{
+    display: flex;
+    width: 1200px;
+    height: 300px;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
